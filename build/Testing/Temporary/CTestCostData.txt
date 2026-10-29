@@ -1,0 +1,20 @@
+FrameTest.RoundTripsPayload 12 0.00133161
+FrameTest.RejectsIncompleteHeader 12 0.00131079
+FrameTest.RejectsIncompletePayload 12 0.0013347
+MessageTest.RoundTripsPing 2 0.00788215
+WALTest.RecoversSingleSet 12 0.00179302
+WALTest.RecoversMultipleCommands 12 0.00168987
+WALTest.EmptyWalRecoversNothing 12 0.00160104
+WALTest.IgnoresIncompleteFinalRecord 12 0.00183326
+WALTest.DetectsCorruptionInMiddle 12 0.00171562
+KVStoreTest.SetAndGet 12 0.00157897
+KVStoreTest.MissingKeyReturnsNothing 12 0.00160026
+KVStoreTest.DeleteRemovesKey 12 0.00167048
+KVStoreTest.DeletingMissingKeyReturnsFalse 12 0.00163381
+KVStoreTest.SetOverwritesExistingValue 12 0.00164162
+KVStoreTest.RecoversAfterRestart 12 0.00168196
+KVStoreTest.RecoversDeleteAfterRestart 12 0.00172711
+MessageTest.RoundTripsRequestVote 10 0.0016307
+RaftMessageTest.RoundTripsEmptyAppendEntries 8 0.00215114
+RaftMessageTest.RoundTripsAppendEntriesWithCommand 8 0.00194975
+---

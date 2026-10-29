@@ -1,0 +1,126 @@
+{
+  "tests": 18,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "RaftMessageTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "RoundTripsEmptyAppendEntries",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/raft\/raft_message_test.cpp",
+          "line": 5
+        },
+        {
+          "name": "RoundTripsAppendEntriesWithCommand",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/raft\/raft_message_test.cpp",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "name": "FrameTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "RoundTripsPayload",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/network\/frame_test.cpp",
+          "line": 5
+        },
+        {
+          "name": "RejectsIncompleteHeader",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/network\/frame_test.cpp",
+          "line": 17
+        },
+        {
+          "name": "RejectsIncompletePayload",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/network\/frame_test.cpp",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "name": "MessageTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "RoundTripsRequestVote",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/network\/message_test.cpp",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "name": "WALTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "RecoversSingleSet",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/storage\/wal_test.cpp",
+          "line": 23
+        },
+        {
+          "name": "RecoversMultipleCommands",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/storage\/wal_test.cpp",
+          "line": 41
+        },
+        {
+          "name": "EmptyWalRecoversNothing",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/storage\/wal_test.cpp",
+          "line": 63
+        },
+        {
+          "name": "IgnoresIncompleteFinalRecord",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/storage\/wal_test.cpp",
+          "line": 70
+        },
+        {
+          "name": "DetectsCorruptionInMiddle",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/storage\/wal_test.cpp",
+          "line": 98
+        }
+      ]
+    },
+    {
+      "name": "KVStoreTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "SetAndGet",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/kv\/store_test.cpp",
+          "line": 22
+        },
+        {
+          "name": "MissingKeyReturnsNothing",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/kv\/store_test.cpp",
+          "line": 34
+        },
+        {
+          "name": "DeleteRemovesKey",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/kv\/store_test.cpp",
+          "line": 41
+        },
+        {
+          "name": "DeletingMissingKeyReturnsFalse",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/kv\/store_test.cpp",
+          "line": 51
+        },
+        {
+          "name": "SetOverwritesExistingValue",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/kv\/store_test.cpp",
+          "line": 58
+        },
+        {
+          "name": "RecoversAfterRestart",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/kv\/store_test.cpp",
+          "line": 71
+        },
+        {
+          "name": "RecoversDeleteAfterRestart",
+          "file": "D:\/ANUBHAB\/Documents\/Distributed-KV\/tests\/kv\/store_test.cpp",
+          "line": 98
+        }
+      ]
+    }
+  ]
+}

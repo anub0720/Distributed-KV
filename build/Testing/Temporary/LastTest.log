@@ -1,0 +1,489 @@
+Start testing: Oct 23 22:35 India Standard Time
+----------------------------------------------------------
+1/18 Testing: RaftMessageTest.RoundTripsEmptyAppendEntries
+1/18 Test: RaftMessageTest.RoundTripsEmptyAppendEntries
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=RaftMessageTest.RoundTripsEmptyAppendEntries" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"RaftMessageTest.RoundTripsEmptyAppendEntries" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = RaftMessageTest.RoundTripsEmptyAppendEntries
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RaftMessageTest
+[ RUN      ] RaftMessageTest.RoundTripsEmptyAppendEntries
+[       OK ] RaftMessageTest.RoundTripsEmptyAppendEntries (0 ms)
+[----------] 1 test from RaftMessageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RaftMessageTest.RoundTripsEmptyAppendEntries" end time: Oct 23 22:35 India Standard Time
+"RaftMessageTest.RoundTripsEmptyAppendEntries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/18 Testing: RaftMessageTest.RoundTripsAppendEntriesWithCommand
+2/18 Test: RaftMessageTest.RoundTripsAppendEntriesWithCommand
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=RaftMessageTest.RoundTripsAppendEntriesWithCommand" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"RaftMessageTest.RoundTripsAppendEntriesWithCommand" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = RaftMessageTest.RoundTripsAppendEntriesWithCommand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RaftMessageTest
+[ RUN      ] RaftMessageTest.RoundTripsAppendEntriesWithCommand
+[       OK ] RaftMessageTest.RoundTripsAppendEntriesWithCommand (0 ms)
+[----------] 1 test from RaftMessageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RaftMessageTest.RoundTripsAppendEntriesWithCommand" end time: Oct 23 22:35 India Standard Time
+"RaftMessageTest.RoundTripsAppendEntriesWithCommand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/18 Testing: FrameTest.RoundTripsPayload
+3/18 Test: FrameTest.RoundTripsPayload
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=FrameTest.RoundTripsPayload" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"FrameTest.RoundTripsPayload" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FrameTest.RoundTripsPayload
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FrameTest
+[ RUN      ] FrameTest.RoundTripsPayload
+[       OK ] FrameTest.RoundTripsPayload (0 ms)
+[----------] 1 test from FrameTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FrameTest.RoundTripsPayload" end time: Oct 23 22:35 India Standard Time
+"FrameTest.RoundTripsPayload" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/18 Testing: FrameTest.RejectsIncompleteHeader
+4/18 Test: FrameTest.RejectsIncompleteHeader
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=FrameTest.RejectsIncompleteHeader" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"FrameTest.RejectsIncompleteHeader" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FrameTest.RejectsIncompleteHeader
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FrameTest
+[ RUN      ] FrameTest.RejectsIncompleteHeader
+[       OK ] FrameTest.RejectsIncompleteHeader (0 ms)
+[----------] 1 test from FrameTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FrameTest.RejectsIncompleteHeader" end time: Oct 23 22:35 India Standard Time
+"FrameTest.RejectsIncompleteHeader" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/18 Testing: FrameTest.RejectsIncompletePayload
+5/18 Test: FrameTest.RejectsIncompletePayload
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=FrameTest.RejectsIncompletePayload" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"FrameTest.RejectsIncompletePayload" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FrameTest.RejectsIncompletePayload
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FrameTest
+[ RUN      ] FrameTest.RejectsIncompletePayload
+[       OK ] FrameTest.RejectsIncompletePayload (0 ms)
+[----------] 1 test from FrameTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FrameTest.RejectsIncompletePayload" end time: Oct 23 22:35 India Standard Time
+"FrameTest.RejectsIncompletePayload" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/18 Testing: MessageTest.RoundTripsRequestVote
+6/18 Test: MessageTest.RoundTripsRequestVote
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=MessageTest.RoundTripsRequestVote" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"MessageTest.RoundTripsRequestVote" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MessageTest.RoundTripsRequestVote
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MessageTest
+[ RUN      ] MessageTest.RoundTripsRequestVote
+[       OK ] MessageTest.RoundTripsRequestVote (0 ms)
+[----------] 1 test from MessageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MessageTest.RoundTripsRequestVote" end time: Oct 23 22:35 India Standard Time
+"MessageTest.RoundTripsRequestVote" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/18 Testing: WALTest.RecoversSingleSet
+7/18 Test: WALTest.RecoversSingleSet
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=WALTest.RecoversSingleSet" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"WALTest.RecoversSingleSet" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = WALTest.RecoversSingleSet
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WALTest
+[ RUN      ] WALTest.RecoversSingleSet
+[       OK ] WALTest.RecoversSingleSet (5 ms)
+[----------] 1 test from WALTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"WALTest.RecoversSingleSet" end time: Oct 23 22:35 India Standard Time
+"WALTest.RecoversSingleSet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/18 Testing: WALTest.RecoversMultipleCommands
+8/18 Test: WALTest.RecoversMultipleCommands
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=WALTest.RecoversMultipleCommands" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"WALTest.RecoversMultipleCommands" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = WALTest.RecoversMultipleCommands
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WALTest
+[ RUN      ] WALTest.RecoversMultipleCommands
+[       OK ] WALTest.RecoversMultipleCommands (3 ms)
+[----------] 1 test from WALTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"WALTest.RecoversMultipleCommands" end time: Oct 23 22:35 India Standard Time
+"WALTest.RecoversMultipleCommands" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/18 Testing: WALTest.EmptyWalRecoversNothing
+9/18 Test: WALTest.EmptyWalRecoversNothing
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=WALTest.EmptyWalRecoversNothing" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"WALTest.EmptyWalRecoversNothing" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = WALTest.EmptyWalRecoversNothing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WALTest
+[ RUN      ] WALTest.EmptyWalRecoversNothing
+[       OK ] WALTest.EmptyWalRecoversNothing (3 ms)
+[----------] 1 test from WALTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"WALTest.EmptyWalRecoversNothing" end time: Oct 23 22:35 India Standard Time
+"WALTest.EmptyWalRecoversNothing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/18 Testing: WALTest.IgnoresIncompleteFinalRecord
+10/18 Test: WALTest.IgnoresIncompleteFinalRecord
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=WALTest.IgnoresIncompleteFinalRecord" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"WALTest.IgnoresIncompleteFinalRecord" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = WALTest.IgnoresIncompleteFinalRecord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WALTest
+[ RUN      ] WALTest.IgnoresIncompleteFinalRecord
+[       OK ] WALTest.IgnoresIncompleteFinalRecord (5 ms)
+[----------] 1 test from WALTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"WALTest.IgnoresIncompleteFinalRecord" end time: Oct 23 22:35 India Standard Time
+"WALTest.IgnoresIncompleteFinalRecord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/18 Testing: WALTest.DetectsCorruptionInMiddle
+11/18 Test: WALTest.DetectsCorruptionInMiddle
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=WALTest.DetectsCorruptionInMiddle" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"WALTest.DetectsCorruptionInMiddle" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = WALTest.DetectsCorruptionInMiddle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WALTest
+[ RUN      ] WALTest.DetectsCorruptionInMiddle
+[       OK ] WALTest.DetectsCorruptionInMiddle (4 ms)
+[----------] 1 test from WALTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"WALTest.DetectsCorruptionInMiddle" end time: Oct 23 22:35 India Standard Time
+"WALTest.DetectsCorruptionInMiddle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/18 Testing: KVStoreTest.SetAndGet
+12/18 Test: KVStoreTest.SetAndGet
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=KVStoreTest.SetAndGet" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"KVStoreTest.SetAndGet" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = KVStoreTest.SetAndGet
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KVStoreTest
+[ RUN      ] KVStoreTest.SetAndGet
+[       OK ] KVStoreTest.SetAndGet (3 ms)
+[----------] 1 test from KVStoreTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"KVStoreTest.SetAndGet" end time: Oct 23 22:35 India Standard Time
+"KVStoreTest.SetAndGet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/18 Testing: KVStoreTest.MissingKeyReturnsNothing
+13/18 Test: KVStoreTest.MissingKeyReturnsNothing
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=KVStoreTest.MissingKeyReturnsNothing" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"KVStoreTest.MissingKeyReturnsNothing" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = KVStoreTest.MissingKeyReturnsNothing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KVStoreTest
+[ RUN      ] KVStoreTest.MissingKeyReturnsNothing
+[       OK ] KVStoreTest.MissingKeyReturnsNothing (3 ms)
+[----------] 1 test from KVStoreTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"KVStoreTest.MissingKeyReturnsNothing" end time: Oct 23 22:35 India Standard Time
+"KVStoreTest.MissingKeyReturnsNothing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/18 Testing: KVStoreTest.DeleteRemovesKey
+14/18 Test: KVStoreTest.DeleteRemovesKey
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=KVStoreTest.DeleteRemovesKey" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"KVStoreTest.DeleteRemovesKey" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = KVStoreTest.DeleteRemovesKey
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KVStoreTest
+[ RUN      ] KVStoreTest.DeleteRemovesKey
+[       OK ] KVStoreTest.DeleteRemovesKey (3 ms)
+[----------] 1 test from KVStoreTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"KVStoreTest.DeleteRemovesKey" end time: Oct 23 22:35 India Standard Time
+"KVStoreTest.DeleteRemovesKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/18 Testing: KVStoreTest.DeletingMissingKeyReturnsFalse
+15/18 Test: KVStoreTest.DeletingMissingKeyReturnsFalse
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=KVStoreTest.DeletingMissingKeyReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"KVStoreTest.DeletingMissingKeyReturnsFalse" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = KVStoreTest.DeletingMissingKeyReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KVStoreTest
+[ RUN      ] KVStoreTest.DeletingMissingKeyReturnsFalse
+[       OK ] KVStoreTest.DeletingMissingKeyReturnsFalse (3 ms)
+[----------] 1 test from KVStoreTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"KVStoreTest.DeletingMissingKeyReturnsFalse" end time: Oct 23 22:35 India Standard Time
+"KVStoreTest.DeletingMissingKeyReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/18 Testing: KVStoreTest.SetOverwritesExistingValue
+16/18 Test: KVStoreTest.SetOverwritesExistingValue
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=KVStoreTest.SetOverwritesExistingValue" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"KVStoreTest.SetOverwritesExistingValue" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = KVStoreTest.SetOverwritesExistingValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KVStoreTest
+[ RUN      ] KVStoreTest.SetOverwritesExistingValue
+[       OK ] KVStoreTest.SetOverwritesExistingValue (3 ms)
+[----------] 1 test from KVStoreTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"KVStoreTest.SetOverwritesExistingValue" end time: Oct 23 22:35 India Standard Time
+"KVStoreTest.SetOverwritesExistingValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/18 Testing: KVStoreTest.RecoversAfterRestart
+17/18 Test: KVStoreTest.RecoversAfterRestart
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=KVStoreTest.RecoversAfterRestart" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"KVStoreTest.RecoversAfterRestart" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = KVStoreTest.RecoversAfterRestart
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KVStoreTest
+[ RUN      ] KVStoreTest.RecoversAfterRestart
+[       OK ] KVStoreTest.RecoversAfterRestart (4 ms)
+[----------] 1 test from KVStoreTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"KVStoreTest.RecoversAfterRestart" end time: Oct 23 22:35 India Standard Time
+"KVStoreTest.RecoversAfterRestart" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/18 Testing: KVStoreTest.RecoversDeleteAfterRestart
+18/18 Test: KVStoreTest.RecoversDeleteAfterRestart
+Command: "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests.exe" "--gtest_filter=KVStoreTest.RecoversDeleteAfterRestart" "--gtest_also_run_disabled_tests"
+Directory: D:/ANUBHAB/Documents/Distributed-KV/build
+"KVStoreTest.RecoversDeleteAfterRestart" start time: Oct 23 22:35 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/W/B/src/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = KVStoreTest.RecoversDeleteAfterRestart
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from KVStoreTest
+[ RUN      ] KVStoreTest.RecoversDeleteAfterRestart
+[       OK ] KVStoreTest.RecoversDeleteAfterRestart (4 ms)
+[----------] 1 test from KVStoreTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"KVStoreTest.RecoversDeleteAfterRestart" end time: Oct 23 22:35 India Standard Time
+"KVStoreTest.RecoversDeleteAfterRestart" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 23 22:35 India Standard Time

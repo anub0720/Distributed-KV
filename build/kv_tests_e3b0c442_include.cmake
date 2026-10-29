@@ -1,0 +1,5 @@
+if(EXISTS "D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests_e3b0c442_tests.cmake")
+  include("D:/ANUBHAB/Documents/Distributed-KV/build/kv_tests_e3b0c442_tests.cmake")
+else()
+  add_test(kv_tests_NOT_BUILT kv_tests_NOT_BUILT)
+endif()

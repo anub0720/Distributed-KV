@@ -1,0 +1,6 @@
+D:/ANUBHAB/Documents/Distributed-KV/build/CMakeFiles/kv_node.dir
+D:/ANUBHAB/Documents/Distributed-KV/build/CMakeFiles/kv_tests.dir
+D:/ANUBHAB/Documents/Distributed-KV/build/CMakeFiles/node.dir
+D:/ANUBHAB/Documents/Distributed-KV/build/CMakeFiles/test.dir
+D:/ANUBHAB/Documents/Distributed-KV/build/CMakeFiles/edit_cache.dir
+D:/ANUBHAB/Documents/Distributed-KV/build/CMakeFiles/rebuild_cache.dir
